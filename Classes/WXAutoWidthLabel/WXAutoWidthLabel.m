@@ -8,6 +8,10 @@
 
 #import "WXAutoWidthLabel.h"
 
+//检查系统版本
+#define IOS_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define IOS_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+
 @implementation WXAutoWidthLabel
 
 - (void)layoutSubviews
