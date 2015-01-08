@@ -15,6 +15,7 @@
 		3B1859EB1A5E77B500F0D300 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B1859E91A5E77B500F0D300 /* LaunchScreen.xib */; };
 		3B1859F71A5E77B500F0D300 /* CommonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1859F61A5E77B500F0D300 /* CommonDemoTests.m */; };
 		3B185A111A5E819600F0D300 /* WXNibDesignAbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B185A101A5E819600F0D300 /* WXNibDesignAbsView.m */; };
+		3B185A151A5E81E400F0D300 /* WXNibDesignAbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B185A141A5E81E400F0D300 /* WXNibDesignAbsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		3B1859F61A5E77B500F0D300 /* CommonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonDemoTests.m; sourceTree = "<group>"; };
 		3B185A0F1A5E819600F0D300 /* WXNibDesignAbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNibDesignAbsView.h; sourceTree = "<group>"; };
 		3B185A101A5E819600F0D300 /* WXNibDesignAbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXNibDesignAbsView.m; sourceTree = "<group>"; };
+		3B185A131A5E81E400F0D300 /* WXNibDesignAbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNibDesignAbsView.h; sourceTree = "<group>"; };
+		3B185A141A5E81E400F0D300 /* WXNibDesignAbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXNibDesignAbsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,7 @@
 		3B185A0D1A5E809800F0D300 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3B185A121A5E81E400F0D300 /* WXNibDesignAbsView2 */,
 				3B185A0E1A5E819600F0D300 /* WXNibDesignAbsView */,
 			);
 			name = Classes;
@@ -155,6 +159,15 @@
 				3B185A101A5E819600F0D300 /* WXNibDesignAbsView.m */,
 			);
 			path = WXNibDesignAbsView;
+			sourceTree = "<group>";
+		};
+		3B185A121A5E81E400F0D300 /* WXNibDesignAbsView2 */ = {
+			isa = PBXGroup;
+			children = (
+				3B185A131A5E81E400F0D300 /* WXNibDesignAbsView.h */,
+				3B185A141A5E81E400F0D300 /* WXNibDesignAbsView.m */,
+			);
+			path = WXNibDesignAbsView2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +274,7 @@
 				3B1859E01A5E77B500F0D300 /* AppDelegate.m in Sources */,
 				3B185A111A5E819600F0D300 /* WXNibDesignAbsView.m in Sources */,
 				3B1859DD1A5E77B500F0D300 /* main.m in Sources */,
+				3B185A151A5E81E400F0D300 /* WXNibDesignAbsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
