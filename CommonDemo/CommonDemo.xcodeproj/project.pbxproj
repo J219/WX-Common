@@ -14,7 +14,6 @@
 		3B1859E81A5E77B500F0D300 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1859E71A5E77B500F0D300 /* Images.xcassets */; };
 		3B1859EB1A5E77B500F0D300 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B1859E91A5E77B500F0D300 /* LaunchScreen.xib */; };
 		3B1859F71A5E77B500F0D300 /* CommonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1859F61A5E77B500F0D300 /* CommonDemoTests.m */; };
-		3B185A0C1A5E78B300F0D300 /* WXNibDesignAbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B185A0B1A5E78B300F0D300 /* WXNibDesignAbsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,6 @@
 		3B1859F01A5E77B500F0D300 /* CommonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1859F51A5E77B500F0D300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B1859F61A5E77B500F0D300 /* CommonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonDemoTests.m; sourceTree = "<group>"; };
-		3B185A0A1A5E78B300F0D300 /* WXNibDesignAbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNibDesignAbsView.h; sourceTree = "<group>"; };
-		3B185A0B1A5E78B300F0D300 /* WXNibDesignAbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXNibDesignAbsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +63,7 @@
 		3B1859CE1A5E77B500F0D300 = {
 			isa = PBXGroup;
 			children = (
+				3B185A0D1A5E809800F0D300 /* Classes */,
 				3B1859D91A5E77B500F0D300 /* CommonDemo */,
 				3B1859F31A5E77B500F0D300 /* CommonDemoTests */,
 				3B1859D81A5E77B500F0D300 /* Products */,
@@ -87,7 +85,6 @@
 				3B1859E41A5E77B500F0D300 /* Main.storyboard */,
 				3B1859DE1A5E77B500F0D300 /* AppDelegate.h */,
 				3B1859DF1A5E77B500F0D300 /* AppDelegate.m */,
-				3B185A081A5E78B300F0D300 /* CommonClasses */,
 				3B185A011A5E77E800F0D300 /* UI */,
 				3B185A001A5E77DD00F0D300 /* Resources */,
 				3B1859DA1A5E77B500F0D300 /* Supporting Files */,
@@ -139,22 +136,12 @@
 			name = UI;
 			sourceTree = "<group>";
 		};
-		3B185A081A5E78B300F0D300 /* CommonClasses */ = {
+		3B185A0D1A5E809800F0D300 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3B185A091A5E78B300F0D300 /* WXNibDesignAbsView */,
 			);
-			name = CommonClasses;
-			path = ../../CommonClasses;
-			sourceTree = "<group>";
-		};
-		3B185A091A5E78B300F0D300 /* WXNibDesignAbsView */ = {
-			isa = PBXGroup;
-			children = (
-				3B185A0A1A5E78B300F0D300 /* WXNibDesignAbsView.h */,
-				3B185A0B1A5E78B300F0D300 /* WXNibDesignAbsView.m */,
-			);
-			path = WXNibDesignAbsView;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +246,6 @@
 			files = (
 				3B1859E31A5E77B500F0D300 /* WXRootViewController.m in Sources */,
 				3B1859E01A5E77B500F0D300 /* AppDelegate.m in Sources */,
-				3B185A0C1A5E78B300F0D300 /* WXNibDesignAbsView.m in Sources */,
 				3B1859DD1A5E77B500F0D300 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
