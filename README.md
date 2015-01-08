@@ -6,3 +6,6 @@ WXNibDesignAbsView：
 
 WXAutoWidthLabel：
 支持auto layout中多行自动适配高度的UILabel子类，兼容iOS8.0以下版本
+
+WXCountDownView：
+可以点击的倒计时View，适合发送验证码等
