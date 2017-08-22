@@ -94,8 +94,8 @@
 
 - (void)clickButton:(id)sender
 {
-    if (self.block) {
-        self.block();
+    if (self.countDownClickBlock) {
+        self.countDownClickBlock();
     }
 }
 

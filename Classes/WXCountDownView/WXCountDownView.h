@@ -20,13 +20,14 @@ typedef void (^EHCountDownClickBlock)();
  */
 @property (nonatomic, readonly) NSTimeInterval restTime;
 
-//可点击时的标题，默认为“获取验证码”
+/// 可点击时的标题，默认为“获取验证码”
 @property (nonatomic, copy) NSString *readyTitle;
 
-//倒计时标题，在后面会拼接“60s”，默认为“获取验证码”
+/// 倒计时标题，在后面会拼接“60s”，默认为“获取验证码”
 @property (nonatomic, copy) NSString *countDownTitle;
 
-@property (nonatomic, copy) EHCountDownClickBlock block;
+/// 回调
+@property (nonatomic, copy) void (^countDownClickBlock)();
 
 /**
  *  开始倒计时
